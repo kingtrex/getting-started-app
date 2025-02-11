@@ -7,6 +7,5 @@ jobs:
       - run: ls
       - uses: actions/checkout@v4
       - run: ls
-      - run: docker build -t eule .
-      - run: docker images
       - uses: docker/build-push-action@v6.13.0
+      - run: docker images
