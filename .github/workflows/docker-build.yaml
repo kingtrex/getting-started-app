@@ -5,3 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: ls
+      - uses: Checkout@v4.2.2
+      - run: ls
