@@ -9,3 +9,5 @@ jobs:
       - run: ls
       - uses: docker/build-push-action@v6.13.0
       - run: docker images
+      - name: Setup AWS SAM CLI
+      - uses: aws-actions/setup-sam@v2
